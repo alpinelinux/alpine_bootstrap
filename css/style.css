@@ -3,15 +3,6 @@
  * remove this comment and start adding your styles to this file.
  */
 
-.author-pane .picture img{
-        width: 100px;
-        height: 100px;
-        -webkit-border-radius: 50px; /* Saf3+, Chrome */
-        border-radius: 50px; /* Opera 10.5, IE 9 */
-        /*-moz-border-radius: 30px;  Disabled for FF1+ */
-	border: 3px solid #3399FF;
-}
-
 footer div{
 	text-align: center;
 }
