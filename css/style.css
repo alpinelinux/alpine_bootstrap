@@ -14,3 +14,13 @@ body {
 #forum .pagination {
     margin: 0px;
 }
+
+#forum .table>thead>tr>th.active,
+#forum .table>thead>tr.active>th {
+    background-color: transparent;
+}
+
+#forum .table-striped>tbody>tr:nth-child(even)>td,
+#forum .table-striped>tbody>tr:nth-child(even)>th {
+    background-color: transparent;
+}
