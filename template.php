@@ -13,3 +13,11 @@ function alpine_bootstrap_preprocess_html(&$variables) {
 function alpine_bootstrap_preprocess_image(&$variables) {
     $variables['attributes']['class'][] = 'img-circle';
 }
+
+// allow author pane to use gravatar images
+function alpine_bootstrap_preprocess_author_pane(&$variables) {
+    if (module_exists('gravatar')) {
+        gravatar_preprocess_user_picture($variables);
+        $variables['picture'] = $variables['user_picture'];
+    }
+}
