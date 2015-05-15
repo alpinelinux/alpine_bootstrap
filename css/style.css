@@ -10,3 +10,7 @@ footer div{
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+#forum .pagination {
+    margin: 0px;
+}
