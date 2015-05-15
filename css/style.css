@@ -24,3 +24,8 @@ body {
 #forum .table-striped>tbody>tr:nth-child(even)>th {
     background-color: transparent;
 }
+
+#edit-notify-type .form-item-notify-type {
+    display: block;
+    margin-bottom: 1em;
+}
