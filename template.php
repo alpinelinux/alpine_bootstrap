@@ -6,7 +6,7 @@
  */
 
 function alpine_bootstrap_preprocess_html(&$variables) {
-    drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans', array('type' => 'external'));
+    drupal_add_css('//fonts.googleapis.com/css?family=Open+Sans', array('type' => 'external'));
 }
 
 /* add boostrap image circle to all images */
